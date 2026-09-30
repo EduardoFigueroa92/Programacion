@@ -1,5 +1,5 @@
 ## Hi there 👋
-En proceso de aprendizaje
+Reposirtorio para practicar Programación desde cero.
 <!--![JavaScript-logo](https://github.com/user-attachments/assets/cecf24c1-a6a2-4fca-9dce-cc4568dd66c8)
 
 **EduardoFigueroa92/EduardoFigueroa92** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
