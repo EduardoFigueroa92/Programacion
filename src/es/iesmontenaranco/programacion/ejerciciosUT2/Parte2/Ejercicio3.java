@@ -16,23 +16,42 @@ Nota: Buscar que método de la clase Math nos permite calcular una raíz cuadrad
 * Se pide a, b y c. El valor de a debe ser distinto de 0
 * Se calcula b2 - 4ac . Si eso es igual a 0 se muestra -b entre 2 a
 * Si el resultado es mayor que cero se calcula
+
+b2 -4ac
+si da numero negativo solo se muestra mensaje por pantalla
+si es mayor de 0 -b +- raiz
+-b - raiz
 */
 
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Introduce el valor de a");
-        double valorA = teclado.nextDouble();
+        float a;
+        do{
+            System.out.println("Introduce el valor de a, y que sea distinto de 0: ");
+            a = teclado.nextFloat();
+        }while(a == 0);
 
-        System.out.println("Introduce el valor de b");
-        double valorB = teclado.nextDouble();
+        System.out.println("Introduce el valor de b: ");
+        float b = teclado.nextFloat();
 
-        System.out.println("Introduce el valor de c");
-        double valorC = teclado.nextDouble();
+        System.out.println("Introduce el valor de c: ");
+        float c = teclado.nextFloat();
 
-        if(valorA != 0){
-            //Se hace todo
+        float resultado = (float)(Math.pow(b,2) - (4 * a * c));
+
+        if(resultado < 0){
+            System.out.println("No existen raices reales");
+        }else if(resultado == 0){
+            System.out.println("Sólo existe una raíz real y es :" + (-b/(2*a)));
         }else{
-            System.out.println("Introduce otro valor para a, debe ser distinto de 0");
+            float raiz1 = (float)(-b + Math.sqrt(resultado)) / ( 2 * a);
+            float raiz2 = (float)(-b - Math.sqrt(resultado)) / ( 2 * a);
+            System.out.println("Existen 2 racies reales: " + raiz1 + " y " + raiz2);
         }
+
+        teclado.close();
+
+
+
 
 
 
