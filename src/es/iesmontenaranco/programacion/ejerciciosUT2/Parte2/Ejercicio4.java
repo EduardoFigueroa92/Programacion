@@ -14,8 +14,9 @@ public class Ejercicio4 {
             d) run: debe invocar a los métodos descritos anteriormente.
         * */
 
-
-
+        for(int i = 0 ; i < i-1 ; i ++){
+            System.out.println(i);
+        }
 
 
     }

@@ -21,7 +21,7 @@ public class Ejercicio1Bis {
     private static int numeroPiezasAptas(int numeroPiezas){
         int piezasAptas = 0;
         for(int i = 1; i <= numeroPiezas; i++){
-            System.out.println("Introduzca la longitud para la pieza numero " + i);
+            System.out.println("Introduzca la longitud para la pieza numero: " + i);
             double longitudPieza = teclado.nextDouble();
             if(longitudPieza <= 1.30 && longitudPieza >= 1.20){
                 piezasAptas++;

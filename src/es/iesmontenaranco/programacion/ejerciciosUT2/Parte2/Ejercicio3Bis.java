@@ -1,6 +1,6 @@
 package es.iesmontenaranco.programacion.ejerciciosUT2.Parte2;
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Ejercicio3Bis {
 
@@ -55,3 +55,4 @@ public class Ejercicio3Bis {
     }
 
 }
+*/
