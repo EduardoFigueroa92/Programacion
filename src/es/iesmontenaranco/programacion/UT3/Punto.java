@@ -46,6 +46,8 @@ public class Punto { //Cabecera de la clase
         Punto.contadorPuntos = contador;
     }
 
+
+
     public String toString(){
         System.out.println("El valor de las coordenadas del punto son: x = " + this.x+ "; y= " + this.y);
     }

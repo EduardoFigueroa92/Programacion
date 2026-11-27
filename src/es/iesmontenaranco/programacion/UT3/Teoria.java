@@ -49,7 +49,7 @@ public class Teoria {
     *
     * ----Tipos de metodos----
     *   - GET (Obtener, leer): Solo devuelve el valor de un atributo usando return y no reciben parametros. Tiene que existir uno por cada atributo. El nombre del metodo es 'get seguido del nombre del atributo con la incial en mayusculas'
-    *   - SET (Establecer, modificar): Modifica el valor de un atributocon el valr proporcionado a traves del parametro de entrada. No devuelve ningun valor
+    *   - SET (Establecer, modificar): Modifica el valor de un atributocon el valr proporcionado a traves del parametro de entrada. No devuelve ningun valor. No se pueden hacer de una constante
     *   - TOSTRING: Devuelve un String con la informacion completa del objeto (el valor de sus atributos) y no tiene parametros
     *   - DE PROPÓSITO GENERAL: Aquellos que realizan operaciones de caracter general y que no son ni getters ni setters ni toString ni constructores.
     *   - CONSTRUCTORES: Nos permiten crear el objeto
